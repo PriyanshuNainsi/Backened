@@ -1,3 +1,4 @@
+   // this is part 1 of Authontication
 const express= require("express");
 const cookieParser=require("cookie-parser")
 const app=express();
