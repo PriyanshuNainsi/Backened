@@ -26,8 +26,8 @@ app.get('/update',async (req,res)=>{
 })
 
 app.get('/read',async (req,res)=>{
-    let userUpdated=await userModel.find();
-    res.send(userUpdated);
+    let userRead=await userModel.find();
+    res.send(userRead);
 })
 
 app.get('/delete',async (req,res)=>{
